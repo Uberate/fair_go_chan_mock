@@ -1,5 +1,8 @@
 # Go 通道队列系统
 
+灵感：[https://uberate.github.io/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/](https://uberate.github.io/learn/posts/article/short/11_your_biggest_customer_might_be_your_biggest_bottleneck/)
+介绍：[https://uberate.github.io/learn/posts/ln/architecture/fair_go_chan/](https://uberate.github.io/learn/posts/ln/architecture/fair_go_chan/)
+
 本项目实现了一个多租户队列系统，提供两种不同的队列策略：FIFO（先进先出）和公平（租户特定的轮询调度）。
 
 [README.md](README_en.md)
